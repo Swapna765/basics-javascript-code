@@ -9,7 +9,7 @@ const square = num => num * num;
 console.log(square(4))
 
 
-// Explicity function
+// Implicity function
 const substraction = (a, b) => a - b;
 console.log(substraction(4,7))
 

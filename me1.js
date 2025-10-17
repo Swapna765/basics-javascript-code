@@ -333,17 +333,93 @@
 
 
 
-switch(true){
-    case 1>6:
-        console.log("Hello")
-        break
+// switch(true){
+//     case 1>6:
+//         console.log("Hello")
+//         break
 
-    case 1<6:
-        console.log("Helllllllllllllo")
-        break
+//     case 1<6:
+//         console.log("Helllllllllllllo")
+//         break
 
-    case 1==6:
-        console.log("Helloooooooooooooo")
-        break
-    default: console.log("Invalid")
-}
+//     case 1==6:
+//         console.log("Helloooooooooooooo")
+//         break
+//     default: console.log("Invalid")
+// }
+
+
+
+
+
+// {
+//     let a = 20
+//     console.log(a)
+//     a = 23
+//     console.log(a)
+// }
+//     // console.log(a)
+
+
+// function xcv(){
+//     let a = 20
+//     console.log(a)
+//     a = 23
+//     console.log(a)
+// }
+//     console.log(a)
+
+
+
+
+// {
+//     var a = 20
+//     console.log(a)
+//     a = 23
+//     console.log(a)
+// }
+//     console.log(a)
+
+
+// function xcv(){
+//     var a = 20
+//     console.log(a)
+//     a = 23
+//     console.log(a)
+// }
+//     console.log(a)
+
+// console.log(typeof null)
+
+
+// let a;
+// console.log(a)
+
+// var c;
+// console.log(c)
+
+// const b;
+// console.log(b)
+
+// let a = "123"
+// let n = Number(a)
+// console.log(typeof n)
+// console.log(typeof a)
+// let b = n + 10
+// console.log(b)
+
+
+// let a = [1,3,4]
+// console.log(typeof a)
+
+
+// let a = true
+// console.log(typeof a)
+// let b = String(a)
+// console.log(typeof b)
+
+
+let str = "99.5";
+let num = str * 1;
+console.log(num);     
+console.log(typeof num);     
