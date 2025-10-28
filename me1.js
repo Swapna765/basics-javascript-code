@@ -336,11 +336,11 @@
 // switch(true){
 //     case 1>6:
 //         console.log("Hello")
-//         break
+//         break;
 
 //     case 1<6:
 //         console.log("Helllllllllllllo")
-//         break
+//         break;
 
 //     case 1==6:
 //         console.log("Helloooooooooooooo")
@@ -419,7 +419,55 @@
 // console.log(typeof b)
 
 
-let str = "99.5";
-let num = str * 1;
-console.log(num);     
-console.log(typeof num);     
+
+function process(callback) {
+  console.log("Processing...");
+  callback();
+}
+
+process(function() {
+  console.log("Process completed!");
+});
+
+
+
+
+console.log("A");
+
+setTimeout(() => console.log("B"), 0);
+
+Promise.resolve().then(() => console.log("C"));
+
+console.log("D");
+
+
+
+
+
+for (var i = 1; i <= 3; i++) {
+  setTimeout(() => console.log(i), 1000);
+}
+
+
+
+
+
+
+for (let i = 1; i <= 3; i++) {
+  setTimeout(() => console.log(i), 1000);
+}
+
+
+
+
+
+
+async function a() {
+  return "A";
+}
+async function b() {
+  const x = await a();
+  console.log(x);
+}
+b();
+console.log("B");

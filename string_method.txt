@@ -1,0 +1,17 @@
+1. length() - counting the every character of the string
+2. concat() - to marge two or more strings  
+3. charAt() - Extract something from the string
+4. charCoadAt() - Extract something from the string
+5. chatPointAt() - Extract something from the string
+6. subString() - 
+7. at() - Extract something from the string
+8. slice() - 
+9. toUpperCase() -
+10. toLowerCase() -
+11. trim() -
+12. trimStart() -
+13. trimEnd() - 
+14. repeat() -
+15. replace() -
+16. replaceAll() - 
+17. split() - 

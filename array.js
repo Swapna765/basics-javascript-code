@@ -3,3 +3,13 @@ console.log(a)
 
 let b = 4
 console.log((a.length-1))
+
+
+// .length
+// .tostring
+// .at
+// .pop
+// .push
+// unshift
+// shift
+// 
