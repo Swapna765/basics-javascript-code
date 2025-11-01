@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    
+</head>
+<body>
+    <div class="hero">
+        <div class="overlay">
+            <h2><span id="00">HI! </span> <span id="01">Swapna</span></h2>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <button class="btn" onclick="hire()">Hire me</button>
+        </div>
+
+        <div class="about">
+            <div class="story">
+                <h2 id="02">My Story</h2>
+                <button class="resume" onclick="downloadresume()">Download</button>
+            </div>
+        </div>
+    </div>
+    <script>
+        function hire(){
+        document.getElementById("00").style.color="red";
+        document.getElementById("01").style.color="green";
+        }
+
+        function downloadresume(){
+            document.getElementById("02").style.color="pink";
+        }2
+    </script>
+</body>
+</html>
